@@ -20,12 +20,6 @@ def hello_param():
 	return query*2
 
 
-@app.route('/newtryJ')
-def floor_function(value,float)->int:
-	if value < 0:
-		return int(value) - 1
-	else:
-		return int(value)
 	
 	
 
