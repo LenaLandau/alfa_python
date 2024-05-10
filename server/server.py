@@ -15,6 +15,10 @@ def hallo():
 def weekend_param():
 	return "Bald ist Wochenende!!"
 
+@app.route('/TGIF')
+def Idea():
+	return "Wir sollen am WE feiern gehen"
+
 if __name__ == '__main__':
 	print("Running on http://0.0.0.0:8080")
 	app.run(debug=True, host='0.0.0.0', port=8080) # 80
