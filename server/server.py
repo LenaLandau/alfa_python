@@ -16,9 +16,9 @@ def hallo():
 def weekend_param():
 	return "Bald ist Wochenende!!"
 
-@app.route('/TGIF')
-def Idea():
-	return "Wir sollen am WE feiern gehen"
+@app.route("/python")
+def python_kurs():
+    return "Wir lernen Python"
 
 if __name__ == '__main__':
 	print("Running on http://0.0.0.0:8080")
