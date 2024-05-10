@@ -1,15 +1,16 @@
-#!/usr/local/bin/python
 # SERVER = Bedienen von Anfragen
 import flask    # debug server, use tornado for live, später auch Django
 app = flask.Flask(__name__)
 
+# ERREICHBAR UNTER http://alfa.pannous.com/hallo …
+
 # Idee: jeder schreibt seine eigene Funktion die man aufrufen kann
 # dann git commit und push
-# eventuell auf eigenem REchner testen (Programm starten und im Browser aufrufen)
+# eventuell auf eigenem Rechner testen (Programm starten und im Browser aufrufen)
 # ich übernehme dann die Funktionen auf meinem Server
 @app.route('/hallo')
 def hallo():
-	return "hallo"+str(3*3)
+	return "hallo "+str(41+1)
 
 @app.route('/weekend')
 def weekend_param():
