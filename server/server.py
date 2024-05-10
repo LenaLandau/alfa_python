@@ -36,7 +36,7 @@ def floor_function(): # fixed by K. ;)
 	else:
 		return int(value)
 	
-@app.route("/wetter")
+@app.route('/wetter')
 def wetter():
 	return "Es ist sonnig."
 
