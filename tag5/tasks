@@ -1,0 +1,74 @@
+Aufgaben if truthy / falsy
+
+1. truthies zählen
+
+values = [0, 1, "", "Hallo", None, [], [1, 2], False, True, {}]
+truthies = 0
+for value in values:
+  if 
+  truthies += 1
+
+Was ist der (erwartete) Wert von truthies? (erst im Kopf, dann überprüfen)
+
+2. truthy Eingaben
+x = input("Geben Sie etwas ein: ")
+if x:
+Truthy
+else:
+Falsy
+
+Findet jemand eine Eingabe, welche Falsy ist? Warum ist "False" nicht falsy?
+
+3. truthy/falsy in Logischen Operatoren 
+
+Etwas ungewohnt, aber man kann truthy/falsy in Logischen Operatoren verwenden!
+
+lst = [0, 1, 2]
+if len(lst) and lst[0]:
+Beide Bedingungen sind truthy.
+else:
+Mindestens eine Bedingung ist falsy.
+
+
+
+
+
+
+
+Schleifen Übungen
+
+Implementiere die Collatz-Vermutung:
+
+    Wenn n gerade ist, teilen Sie sie durch 2.
+    Wenn n ungerade ist, multipliziere sie mit 3 und addieren Sie 1.
+
+    Setze den Prozess fort, bis n 1 wird. Das Programm sollte jeden Zwischenwert von n ausdrucken.
+
+
+FizzBuzz 
+Das Standard-FizzBuzz-Problem besteht darin, Zahlen von 1 bis 20 auszudrucken, aber für Vielfache von drei „Fizz“ anstelle der Zahl und für die Vielfachen von fünf „Buzz“ auszugeben. Für Zahlen, die Vielfache von sowohl drei als auch fünf sind, geben Sie „FizzBuzz“ aus. 
+
+Passwortgenerator
+Schreiben Sie ein Programm, das ein sicheres Passwort generiert. Dieses Passwort muss eine Mischung aus Buchstaben (Groß- und Kleinbuchstaben), Ziffern und Sonderzeichen enthalten. Das Programm sollte nach der gewünschten Länge des Passworts fragen und sicherstellen, dass das generierte Passwort eine Mindestkomplexitätsanforderung erfüllt
+
+Temperaturumrechnungstabelle
+Schreiben Sie ein Python-Skript, das eine Tabelle von Temperaturen von Grad Celsius in Fahrenheit für 0 bis 100 Grad Celsius in 5-Grad-Schritten ausdruckt. Verwenden Sie eine Schleife, um jedes Paar im Format "XX°C ist YY°F" zu berechnen und auszudrucken.
+
+
+
+
+Schulnoten Bewertung
+geben Note von 1 bis 6, gib mit if…elif… das passende Wort aus (2==Gut)
+
+
+Tropen
+Schreibe einfaches if…elif… welches für Temperatur-Bereiche folgende auszugaben tätigt:
+Heiße Zone
+Gemäßigte Zone
+Kalte Zone
+
+Nutzerstatus. 
+Es gibt zwei arten von Nutzern mit passendem Status:
+rolle = "Editor" / "Admin"
+status = "aktiv" / "inaktiv"
+Schreibe ein Programm welches für alle Kombinationen eine passende Meldung ausgibt, z.B. Admin+aktiv: print("Vollzugriff gewährt.")

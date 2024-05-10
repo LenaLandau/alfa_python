@@ -1,0 +1,4 @@
+import sys
+print(sys.argv) # index 0 ist der Name des Skripts
+if len(sys.argv) > 1:
+	print("Zusatzargument 1", sys.argv[1])
