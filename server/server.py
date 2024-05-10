@@ -35,6 +35,10 @@ def floor_function(): # fixed by K. ;)
 		return int(value) - 1
 	else:
 		return int(value)
+	
+@app.route('/wetter')
+def wetter():
+	return "Es ist sonnig."
 
 
 if __name__ == '__main__':
