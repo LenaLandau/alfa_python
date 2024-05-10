@@ -11,6 +11,10 @@ app = flask.Flask(__name__)
 def hallo():
 	return "hallo"+str(3*3)
 
+@app.route('/weekend')
+def weekend_param():
+	return "Bald ist Wochenende!!"
+
 if __name__ == '__main__':
 	print("Running on http://0.0.0.0:8080")
 	app.run(debug=True, host='0.0.0.0', port=8080) # 80
