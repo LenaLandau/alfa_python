@@ -7,8 +7,8 @@ app = flask.Flask(__name__)
 # dann git commit und push
 # eventuell auf eigenem REchner testen (Programm starten und im Browser aufrufen)
 # ich übernehme dann die Funktionen auf meinem Server
-@app.route('/hallo_karsten')
-def hello_param():
+@app.route('/hallo')
+def hallo():
 	return "hallo"+str(3*3)
 
 if __name__ == '__main__':
