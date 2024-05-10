@@ -2,7 +2,7 @@
 import flask    # debug server, use tornado for live, später auch Django
 app = flask.Flask(__name__)
 
-@app.route('/hallo')
+@app.route('/')
 def hallo():
 	return "hallo "+str(41+1)
 
