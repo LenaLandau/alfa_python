@@ -37,7 +37,7 @@ def floor_function(): # fixed by K. ;)
 		return int(value)
 	
 @app.route("/wetter")
-def python_kurs():
+def wetter():
 	return "Es ist sonnig."
 
 
