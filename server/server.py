@@ -32,9 +32,9 @@ def floor_function(): # fixed by K. ;)
 	else:
 		return "MISSING param 'value'\n"
 	if value < 0:
-		return int(value) - 1
+		return str(int(value) - 1)
 	else:
-		return int(value)
+		return str(int(value))
 	
 @app.route('/wetter')
 def wetter():
