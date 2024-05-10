@@ -3,7 +3,11 @@
 import flask    # debug server, use tornado for live, später auch Django
 app = flask.Flask(__name__)
 
-@app.route('/hallo')
+# Idee: jeder schreibt seine eigene Funktion die man aufrufen kann
+# dann git commit und push
+# eventuell auf eigenem REchner testen (Programm starten und im Browser aufrufen)
+# ich übernehme dann die Funktionen auf meinem Server
+@app.route('/hallo_karsten')
 def hello_param():
 	return "hallo"+str(3*3)
 
