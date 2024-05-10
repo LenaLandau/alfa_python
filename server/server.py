@@ -15,6 +15,15 @@ def hallo():
 def weekend_param():
 	return "Bald ist Wochenende!!"
 
+
+@app.route('/newtryJ')
+def floor_function(value,float)->int:
+	if value < 0:
+		return int(value) - 1
+	else:
+		return int(value)
+	
+
 if __name__ == '__main__':
 	print("Running on http://0.0.0.0:8080")
 	app.run(debug=True, host='0.0.0.0', port=8080) # 80
