@@ -12,5 +12,4 @@ Hallo von Rodrigo
 
 new Change
 
-
-Hallo von Serkan!
+Hallo von Serkan
